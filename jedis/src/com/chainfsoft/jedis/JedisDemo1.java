@@ -22,6 +22,8 @@ public class JedisDemo1 {
 	  System.out.println(value);
 	  //4.释放资源
 	  jedis.close();
+
+		System.out.println(value);
   }
 	
 }
